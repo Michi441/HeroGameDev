@@ -1,0 +1,212 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body, html{
+
+	background-color: #333;
+}
+section#Hero1{
+
+	background-color: #566270;
+	height: 1000px;
+	
+}
+
+section#Hero2{
+
+		height: 500px;
+		background-color: #FFFFF3;
+		background-image: url("skyrim.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+}
+
+section#Hero3{
+
+	height: 500px;
+	background-color: #FFFFF3;
+	color: #333;
+}
+
+
+section#Hero4{
+
+	height: 300px;
+	background-color: #A593E0;
+}
+
+section#Unity{
+
+	background-color: #E0E3DA;
+	height: 500px;
+}
+
+h1,h2,h3,h4,p{
+
+	color: #333;
+	font-family: 'Indie Flower', cursive;
+}
+
+.row{
+
+	text-align: center;
+	
+	font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron{
+
+	margin-top: 80px;
+	
+	background-image: url("../images/fps.jpg");
+	
+	background-position: center;
+
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+	
+}
+
+#signUp{
+
+	margin-top: 25px;
+}
+
+#SignUps{
+
+	margin-top: 150px;
+}
+
+#UnityContainer{
+
+	padding-top: 50px;
+	padding-bottom: auto;
+}
+
+#LearnHowTo{
+
+	margin-top: 30px;
+	margin-bottom: auto;
+}
+
+
+#Symbol{
+
+	font-size: 80px;
+	color: #333;
+}
+
+
+
+
+.signup{
+
+	margin-top: 25px;
+	font-size: 18px;
+}
+
+#Learn{
+
+	color: #111;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 25px;
+	
+}
+
+
+.img-rounded{
+
+	width: 300px;
+	height: 200px;
+	border-radius: 35px;
+}
+
+#UnityLearn1{
+
+	
+	width: 550px;
+	height: auto;
+}
+
+#UnityLearn2{
+
+	width: 250px;
+	height: auto;
+}
+
+#UnityLearn3{
+
+	
+	
+	width: 350px;
+	height: auto;
+}
+
+#gears{
+
+	border-radius: 90px;
+	box-shadow: 15px;
+}
+
+
+.Favourite{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.Test{
+
+	text-align: left;
+}
+
+.Test2{
+
+	text-align: right;
+}
+
+.Unity{
+
+	margin-bottom: 50px;
+}
+
+.UnityTest{
+
+	text-align: right;
+	font-weight: 600;
+}
+
+.UnityLearn3{
+
+	margin-left: 90px;
+}
+
+#SignIn{
+
+	margin-top: 8px;
+}
+

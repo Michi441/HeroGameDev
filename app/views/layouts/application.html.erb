@@ -5,8 +5,55 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+
+		   <a class="navbar-brand" href="#">
+		   	<p>GameHack</p>
+      
+		   	</a>
+		    	<div class="container">
+
+						<button type="button" class="btn btn-default navbar-right" id="SignIn">Sign in</button>
+						<a class="navbar-brand navbar-right" href="#">
+
+		    			<p>Login</p>
+
+		    			</a>
+
+
+		    			<a class="navbar-brand navbar-right" href="#">
+		    			<p>Unity</p>
+		    			</a>
+
+		    			 <a class="navbar-brand navbar-right" href="#">
+
+		    			<p>About</p>
+		    			</a>
+
+
+
+
+		    	</div>
+		  </div>
+
+
+
+
+
+
+
+
+
+
+	</nav>
 
 <%= yield %>
 
